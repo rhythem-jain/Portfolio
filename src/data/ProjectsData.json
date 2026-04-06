@@ -1,0 +1,110 @@
+[
+    {
+        "head": "Intelli-Credit",
+        "year": "Mar 2026",
+        "ss": "/assets/SS/IntelliCreditSS.png",
+        "tagline": "AI B2B Credit Underwriting Platform",
+        "problem": "India faces a Rs. 25L Crore MSME credit gap — traditional underwriting is slow, biased, and incomplete. Intelli-Credit closes this gap with a 4-stage AI pipeline.",
+        "highlights": [
+            "4-stage pipeline with 5C scoring (25+ SHAP factors) for explainable credit decisions",
+            "GST/Bank/ITR cross-validation with Gemini RAG chatbot integration",
+            "AI-generated PDF CAM reports via 6 REST APIs — zero TypeScript errors, deployed on Vercel"
+        ],
+        "impact": "IIT Hyderabad Hackathon — End-to-end AI credit underwriting platform",
+        "tech": "Next.js 16, TypeScript, Gemini 2.5 Flash, Supabase, Tailwind, Vercel",
+        "github": "https://github.com/rhythem-jain/Intelli-Credit",
+        "url": "https://intelli-credit-pi.vercel.app",
+        "icons": [
+            {
+                "id": 1,
+                "img": "/assets/icons/NextjsIcon.png"
+            },
+            {
+                "id": 2,
+                "img": "/assets/icons/SupabaseIcon.png"
+            },
+            {
+                "id": 3,
+                "img": "/assets/icons/GeminiIcon.png"
+            },
+            {
+                "id": 4,
+                "img": "/assets/icons/TailwindcssIcon.png"
+            }
+        ]
+    },
+    {
+        "head": "Honeypot API",
+        "year": "Feb–Mar 2026",
+        "ss": "/assets/SS/HoneypotSS.png",
+        "tagline": "Threat Intelligence Platform for Malicious Traffic",
+        "problem": "Cybersecurity teams lack real-time intelligence on malicious actors — traditional honeypots are passive and don't generate actionable threat data.",
+        "highlights": [
+            "Designed honeypot REST API capturing and analysing malicious traffic patterns",
+            "Authored full API documentation and technical specifications from scratch",
+            "Deployed to Microsoft Azure App Service with CI/CD pipelines in production"
+        ],
+        "impact": "HCL GUVI India AI Buildathon — 40,000+ participants",
+        "tech": "Python, FastAPI, REST API, Microsoft Azure, GitHub Actions",
+        "github": "https://github.com/rhythem-jain/Honeypot-API",
+        "url": "https://github.com/rhythem-jain/Honeypot-API",
+        "icons": [
+            {
+                "id": 1,
+                "img": "/assets/icons/PythonIcon.png"
+            },
+            {
+                "id": 2,
+                "img": "/assets/icons/AzureIcon.png"
+            }
+        ]
+    },
+    {
+        "head": "AadhaarIQ",
+        "year": "Mar 2026",
+        "ss": "/assets/SS/AadhaarIQSS.png",
+        "tagline": "Aadhaar Equity Intelligence Platform",
+        "problem": "India's underserved populations lack data-driven representation. No platform existed to measure equity gaps in Aadhaar coverage across states and districts at scale.",
+        "highlights": [
+            "Built first-of-its-kind Aadhaar Equity Index (5-dimension metric) across 36 states & 984 districts",
+            "Analysed 4.93M records using Isolation Forest (146 anomalies), K-Means, and Linear Regression",
+            "Gemini chatbot dashboard deployed on Render — projected impact 500K+ underserved citizens"
+        ],
+        "impact": "UIDAI Data Hackathon 2026 — Team UIDAI_6127 · Team Leader",
+        "tech": "Python, Pandas, NumPy, scikit-learn, Plotly.js, Gemini API",
+        "github": "https://github.com/rhythem-jain/AadhaarIQ",
+        "url": "https://aadhaariq-dashboard.onrender.com",
+        "icons": [
+            {
+                "id": 1,
+                "img": "/assets/icons/PythonIcon.png"
+            },
+            {
+                "id": 2,
+                "img": "/assets/icons/GeminiIcon.png"
+            }
+        ]
+    },
+    {
+        "head": "FinTrace",
+        "year": "Feb 2026",
+        "ss": "/assets/SS/FinTraceSS.png",
+        "tagline": "Layered AML Detection System",
+        "problem": "Anti-Money Laundering detection requires multi-layered analysis of financial transactions — single-method approaches miss complex laundering patterns like circular transactions.",
+        "highlights": [
+            "5 detection algorithms: IQR high-frequency, 99th-percentile large-amount, multi-identity, NetworkX circular transactions, rapid-movement",
+            "Interactive spider-map visualisation for AML pattern analysis",
+            "8 REST API endpoints deployed on Render with GitHub Actions CI"
+        ],
+        "impact": "Personal Project — Production deployed on Render",
+        "tech": "Python, Flask, NetworkX, SQLite, HTML/CSS/JS",
+        "github": "https://github.com/rhythem-jain/FinTrace",
+        "url": "https://fintrace.onrender.com",
+        "icons": [
+            {
+                "id": 1,
+                "img": "/assets/icons/PythonIcon.png"
+            }
+        ]
+    }
+]

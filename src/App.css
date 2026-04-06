@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+
+
+body,
+html {
+  font-family: 'Poppins', sans-serif;
+  background-color: light-dark(hsl(220 20% 97%), hsl(220 25% 6%));
+  color: light-dark(hsl(220 15% 10%), hsl(220 15% 95%));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  /* for Internet Explorer and Edge */
+  scrollbar-width: none;
+  /* for Firefox */
+}
+
+:root {
+  /* ===== IMPROVED COLOR PALETTE ===== */
+
+  /* Main Backgrounds */
+  --color-bg: light-dark(hsl(220 20% 97%), hsl(220 25% 6%));
+  --color-innerbg: light-dark(hsl(220 25% 95%), hsl(220 20% 10%));
+
+  /* Surface Colors */
+  --color-lightgray: light-dark(hsl(220 15% 90%), hsl(220 15% 15% / 0.85));
+  --color-projectcardbg: light-dark(hsl(220 20% 96% / 0.6), hsl(220 18% 12%));
+
+  /* Navigation */
+  --color-navbg: light-dark(hsl(220 30% 100% / 55%), hsl(220 25% 14% / 65%));
+
+  /* Borders */
+  --color-darkgray: light-dark(hsl(220 15% 85% / 75%), hsl(220 10% 28% / 55%));
+  --color-gray: light-dark(hsl(220 15% 88%), hsl(220 12% 30% / 0.5));
+
+  /* Text */
+  --color-maintext: light-dark(hsl(220 18% 8%), hsl(220 15% 96%));
+  --color-sidetext: light-dark(hsl(220 12% 35%), hsl(220 10% 68%));
+
+  /* Special Elements */
+  --color-infiniteimgbg: light-dark(hsl(220 20% 93% / 0.4), hsl(220 15% 50% / 0.1));
+
+  /* Accent Colors */
+   --color-green: light-dark(hsl(110, 100%, 84%), hsl(110, 91%, 82%));
+  --color-accent-primary: light-dark(hsl(250 70% 60%), hsl(250 70% 65%));
+  --color-accent-secondary: light-dark(hsl(190 70% 50%), hsl(190 65% 55%));
+
+  /* Phone Mock */
+  --color-blueborder: light-dark(hsl(210 50% 70%), hsl(210 60% 45% / 0.65));
+  --color-phone: light-dark(hsl(220 20% 5%), hsl(220 30% 8%));
+
+  /* Interactive States */
+  --color-hover: light-dark(hsl(220 25% 92%), hsl(220 18% 14%));
+  --color-focus: light-dark(hsl(250 70% 95%), hsl(250 40% 20%));
+
+  /* Shadows */
+  --shadow-sm: light-dark(0 2px 8px hsl(220 15% 50% / 0.08),
+      0 2px 8px hsl(220 50% 0% / 0.3));
+
+  --shadow-md: light-dark(0 4px 16px hsl(220 15% 50% / 0.12),
+      0 4px 16px hsl(220 50% 0% / 0.4));
+
+  --shadow-lg: light-dark(0 8px 24px hsl(220 15% 50% / 0.15),
+      0 8px 24px hsl(220 50% 0% / 0.5));
+}
+
+/* Optional: Add subtle glow effect for dark mode */
+@media (prefers-color-scheme: dark) {
+  .hover\:shadow-glow:hover {
+    box-shadow: 0 0 20px hsl(250 70% 60% / 0.3);
+  }
+}

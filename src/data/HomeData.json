@@ -1,0 +1,67 @@
+[
+    {
+        "Name": "I'm Rhythem Jain",
+        "Role": "AI Engineer & Builder",
+        "Description": "Mechatronics Engineering student at JEC, Jabalpur. Building AI-powered platforms, hackathon winner, and open-source contributor. Turning real-world problems into intelligent solutions."
+    },
+    {
+        "AboutPara1": "I'm Rhythem Jain, a Mechatronics Engineering student at Jabalpur Engineering College with a CGPA of 8.167/10. I build AI-powered platforms that solve real problems — from credit underwriting to threat intelligence and equity analytics.",
+        "AboutPara2": "I've competed in national-level hackathons at IIT Hyderabad and UIDAI Data Hackathon 2026, built and deployed production-grade APIs on Azure and cloud platforms, and earned certifications from Anthropic, Google, and Columbia University. I thrive at the intersection of AI, data, and web engineering."
+    },
+    [
+        {
+            "id": 1,
+            "img": "IntelliCreditSS",
+            "title": "Intelli-Credit",
+            "para": "AI B2B Credit Underwriting Platform — end-to-end MSME credit gap solution with 5C scoring, Gemini RAG chatbot, and AI-generated PDF CAM reports. Built for IIT Hyderabad Hackathon.",
+            "link": "https://intelli-credit-pi.vercel.app"
+        },
+        {
+            "id": 2,
+            "img": "HoneypotSS",
+            "title": "Honeypot API",
+            "para": "Threat Intelligence Platform capturing and analysing malicious traffic. Deployed on Microsoft Azure with CI/CD pipelines. Built for HCL GUVI India AI Buildathon (40,000+ participants).",
+            "link": "https://github.com/rhythem-jain/Honeypot-API"
+        },
+        {
+            "id": 3,
+            "img": "AadhaarIQSS",
+            "title": "AadhaarIQ",
+            "para": "Aadhaar Equity Intelligence Platform — first-of-its-kind Aadhaar Equity Index across 36 states & 984 districts, analysing 4.93M records with Gemini chatbot dashboard.",
+            "link": "https://aadhaariq-dashboard.onrender.com"
+        },
+        {
+            "id": 4,
+            "img": "FinTraceSS",
+            "title": "FinTrace",
+            "para": "Layered AML Detection System — 5 detection algorithms (IQR, 99th-percentile, multi-identity, NetworkX circular transactions, rapid-movement), interactive spider-map visualisation, deployed on Render.",
+            "link": "https://fintrace.onrender.com"
+        }
+    ],
+    [
+        {
+            "time_period": "Mar 2026",
+            "role": "Hackathon Participant",
+            "companylogo": "/assets/IITHLogo.png",
+            "companyname": "IIT Hyderabad"
+        },
+        {
+            "time_period": "Feb–Mar 2026",
+            "role": "AI Buildathon Participant",
+            "companylogo": "/assets/HCLLogo.png",
+            "companyname": "HCL GUVI"
+        },
+        {
+            "time_period": "Mar 2026",
+            "role": "Team Leader",
+            "companylogo": "/assets/UIDAILogo.png",
+            "companyname": "UIDAI"
+        }
+    ],
+    {
+        "para": "I'm always open to exploring new opportunities, collaborations, or just exchanging ideas with like-minded builders. Feel free to reach out if you'd like to connect, discuss a project, or talk AI and tech!"
+    },
+    {
+        "copyright_message": "Copyright © 2026 Rhythem Jain. All rights reserved."
+    }
+]
