@@ -21,14 +21,18 @@
             },
             {
                 "id": 2,
-                "img": "/assets/icons/SupabaseIcon.png"
+                "img": "/assets/icons/TypescriptIcon.png"
             },
             {
                 "id": 3,
-                "img": "/assets/icons/GeminiIcon.png"
+                "img": "/assets/icons/GeminiIcon.svg"
             },
             {
                 "id": 4,
+                "img": "/assets/icons/SupabaseIcon.png"
+            },
+            {
+                "id": 5,
                 "img": "/assets/icons/TailwindcssIcon.png"
             }
         ]
@@ -55,7 +59,15 @@
             },
             {
                 "id": 2,
-                "img": "/assets/icons/AzureIcon.png"
+                "img": "/assets/icons/FastAPIIcon.svg"
+            },
+            {
+                "id": 3,
+                "img": "/assets/icons/AzureIcon.svg"
+            },
+            {
+                "id": 4,
+                "img": "/assets/icons/GithubIcon.png"
             }
         ]
     },
@@ -81,7 +93,23 @@
             },
             {
                 "id": 2,
-                "img": "/assets/icons/GeminiIcon.png"
+                "img": "/assets/icons/PandasIcon.svg"
+            },
+            {
+                "id": 3,
+                "img": "/assets/icons/NumpyIcon.svg"
+            },
+            {
+                "id": 4,
+                "img": "/assets/icons/ScikitlearnIcon.svg"
+            },
+            {
+                "id": 5,
+                "img": "/assets/icons/PlotlyIcon.svg"
+            },
+            {
+                "id": 6,
+                "img": "/assets/icons/GeminiIcon.svg"
             }
         ]
     },
@@ -104,6 +132,26 @@
             {
                 "id": 1,
                 "img": "/assets/icons/PythonIcon.png"
+            },
+            {
+                "id": 2,
+                "img": "/assets/icons/FlaskIcon.svg"
+            },
+            {
+                "id": 3,
+                "img": "/assets/icons/NetworkXIcon.svg"
+            },
+            {
+                "id": 4,
+                "img": "/assets/icons/SQLiteIcon.svg"
+            },
+            {
+                "id": 5,
+                "img": "/assets/icons/HtmlIcon.png"
+            },
+            {
+                "id": 6,
+                "img": "/assets/icons/JavascriptIcon.png"
             }
         ]
     }

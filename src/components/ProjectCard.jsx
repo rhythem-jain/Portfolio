@@ -166,6 +166,7 @@ const ProjectCard = ({ Url, Head, SS, tagline, problem, highlights, impact, tech
                 </motion.div>
 
                 {/* Tech Stack Icons */}
+                {icons && icons.length > 0 && (
                 <motion.div
                     initial={{
                         y: -100,
@@ -184,15 +185,33 @@ const ProjectCard = ({ Url, Head, SS, tagline, problem, highlights, impact, tech
                 >
                     <p className='text-sm text-[var(--color-sidetext)] max-md:text-xs mb-3'><b>Tech Stack</b></p>
                     <div className='flex'>
-                        <div className='flex items-center gap-2 flex-wrap'>
+                        <div className='flex items-center gap-3 flex-wrap'>
                             {
                                 icons.map((icon) => (
-                                    <img className='h-8' key={icon.id} src={icon.img} alt="tech icon" />
+                                    <div
+                                        key={icon.id}
+                                        style={{
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            background: 'rgba(255,255,255,0.08)',
+                                            border: '1px solid rgba(255,255,255,0.12)',
+                                            borderRadius: '10px',
+                                            padding: '6px 8px',
+                                            backdropFilter: 'blur(8px)',
+                                            transition: 'all 0.2s ease',
+                                        }}
+                                        onMouseEnter={e => e.currentTarget.style.background = 'rgba(255,255,255,0.15)'}
+                                        onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.08)'}
+                                    >
+                                        <img className='h-7 w-7 object-contain' src={icon.img} alt="tech icon" />
+                                    </div>
                                 ))
                             }
                         </div>
                     </div>
                 </motion.div>
+                )}
 
 
             </div>
